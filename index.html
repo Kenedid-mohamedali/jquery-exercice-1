@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercice 1</title>
+
+</head>
+<body>
+    <h1 class="maclasse">Exercice 1</h1>
+
+    <div id="form"></div>
+    <div id="form"></div>
+
+    <form>
+        <div class="form">
+            <label for="exampleFormControlTextarea1">Textarea 1</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form">
+            <label for="exampleFormControlTextarea1">Textarea 2</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+    </form>
+
+    <p id=monid>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quis enim necessitatibus animi? Quod cumque sint praesentium, nobis obcaecati officia expedita pariatur saepe aliquam reiciendis! Dolor, similique. Quasi, voluptate?</p>
+
+    <p id=monid>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corrupti molestias perspiciatis nesciunt qui aliquam, sint assumenda fugiat? In magnam magni molestias ab inventore praesentium quaerat ex deserunt incidunt aliquam.</p>
+
+
+
+    <button>Cliquez ici</button>
+
+    
+    
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            //notre code jQuery
+
+            $("button").click(function(){
+                $("p").addClass("addcls");
+            });
+            $("button").click(function(){
+                $("textarea").addClass("addcls");
+            });
+
+        });
+    </script>
+
+</body>
+</html>   
